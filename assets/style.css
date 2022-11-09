@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background: linear-gradient(-45deg, #7F7FD5, #bb06b8, #86A8E7, #ca0ef4);
+   	background-size: 1000% 1000%; 
+	-webkit-animation: gradientBG 5s ease-in-out infinite;
+	animation: gradientBG 4s ease-in-out infinite;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header{
+    margin-top: 1rem;
+}
+
+header img{
+    width: 100%;
+    height: 50vh;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.line{
+    border:1px solid rgba(236, 240, 236, 0.253);
+    width: 70%;
+    height: 0.5%;
+}
+
+p{
+   font-size: 1.1rem;
+}
+
+.btn{
+    font-family: 'Great Vibes', cursive;
+	font-size: large;
+	margin: 5px;
+    width: auto;
+    border: 0 none;
+    border-radius: 5px;
+    padding: 10px;  	
+    background-color: rgba(255, 255, 255, 0.849);
+  	cursor: pointer;
+      
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.449);
+}
+
+.call-to-action a{
+    color: #7F7FD5;
+}
+
